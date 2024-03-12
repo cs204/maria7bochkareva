@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт о кошках</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #212529;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        p {
+            line-height: 1.6;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на сайт о кошках!</h1>
+    </header>
+    <nav>
+        <a href="#about">О нас</a>
+        <a href="#breeds">Породы</a>
+        <a href="#gallery">Галерея</a>
+    </nav>
+    <div class="container" id="about">
+        <h2>О нас</h2>
+        <p>Мы - любители кошек, и этот сайт посвящен нашим мурлыкающим друзьям.</p>
+        <p>Здесь вы найдете информацию о различных породах кошек, интересные факты о них и многое другое.</p>
+    </div>
+    <div class="container" id="breeds">
+        <h2>Породы кошек</h2>
+        <p>Существует множество пород кошек, каждая из которых обладает своими особенностями.</p>
+        <ul>
+            <li>Персидская</li>
+            <li>Сиамская</li>
+            <li>Британская короткошерстная</li>
+            <li>Мейн-кун</li>
+            <li>Сфинкс</li>
+        </ul>
+    </div>
+    <div class="container" id="gallery">
+        <h2>Галерея</h2>
+        <p>Ниже представлена небольшая галерея изображений различных кошачьих пород.</p>
+        <img src="https://lapkus.ru/wp-content/uploads/2023/02/breed_information_persian_x2.jpg" alt="Персидская кошка">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWW6dffFlWhMiqoZjLcLi-6BEAUFxdYQd_vA&usqp=CAU" alt="Сиамская кошка">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9wlbqlSKEXmR6kCmjUBYj5sJhqFZy-qtP9w&usqp=CAU" alt="Британская короткошерстная кошка">
+    </div>
+</body>
+</html>
